@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
+.BODY-INDEX {
+font-family: 'Roboto', sans-serif;
+background: white;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+padding left: 20px;
+padding right: 20px;
+padding top: 40px;
+padding bottom: 40px;
+}
+.logo{
+ font-size: 26px; 
+ font-weight: bold;
+}
+.logo-header {
+  color: #2196f3
+}
+.top-containerindex-link {git init
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.top-containerindex-link :hover,
+ .top-containerindex-link :focus,
+ .top-containerindex-link :active{
+  color: #2196f3;
+
+}
+.top-containerindex-link a {
+  color: #000000;
+}
+.top-containerindex-link1 a {
+color: grey;
+}
+/* Эффективные решения для вашего бизнеса */
+.bigmotto{
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #2F303A;
+}
+
+.bigmotto a{
+  color: white;
+  text-decoration: none;
+  
+}
+.bigmottolink {
+font-size: 16px;
+text-align: center;
+text-align: center;
+letter-spacing: 0.06em;
+border: 2px solid blue;
+border-radius: 4px;
+}
+.more-about {
+  width: 270px;
+}
+.What-we-do{
+  text-align: center;
+}
+.our-team {
+background: #F5F4FA;
+}
+.our-team-name {
+  text-align: center;
+}
+.footer {
+background: #2F303A;
+width: 1600px;
+height: 100px;
+left: 0px;
+}
+.footer a{
+text-decoration: none;
+color: white;
+}
+.email-tel a{
+color: grey;
+
+}
+/*описание странички портфолио*/
+.BODY-PORTFOLIO {
+font-family: 'Roboto', sans-serif;
+background: white;
+}
+.links-about {
+ background: #F5F4FA;
+ width: 100px;
+ text-align: center;
+}
+.links-about a {
+  color: black;
+}
+.links-about li {
+    border: 2px solid white;
+    width: auto;
+}
+.details {
+  background: EEEEEE;
+}
+.details a{
+    text-decoration: none;
+color: #212121;
+
+}
+.details li {
+     border: 1px solid #000000;
+box-sizing: border-box;
+width: 370px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
