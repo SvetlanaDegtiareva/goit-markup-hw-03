@@ -23,6 +23,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
+width: 1600px;
 letter-spacing: 0.02em;
 padding left: 20px;
 padding right: 20px;
@@ -40,6 +41,11 @@ color: #2196f3
 /*display: inline-block;
 padding: 12px 12px 12px 12px;
 margin: 20px;*/
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 215px;
+padding-right: 215px;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -47,7 +53,7 @@ letter-spacing: 0.02em;
 
 .top-containerindex-link :hover,
 .top-containerindex-link :focus,
-.top-containerindex-link :active{
+.top-containerindex-link :active {
 color: #2196f3;
 }
 
@@ -58,40 +64,69 @@ color: #000000;
 color: grey;
 }
 /* Эффективные решения для вашего бизнеса */
-.bigmotto{
+.bigmotto {
 height: 600px;
-padding: 200px 452px;
+width: 1600px;
+left: 0px;
+top: 80px;
+padding: 150px 152px;
 margin: 10px;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+text-decoration: none;
 color: #FFFFFF;
 background: #2F303A;
 }
 
-.bigmotto a{
-  color: white;
-  text-decoration: none;
-  
-}
-.bigmottolink {
-padding: 30px;
-font-size: 16px;
-text-align: center;
-text-align: center;
+.bigmottolink1  {
+color: white;
+width: 1200px;
+height: 120px; 
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
 letter-spacing: 0.06em;
+text-align: center;
+}
+
+.bigmottolink2 {
+text-decoration: none;
+position: absolute;
+width: 236px;
+height: 55px;
+left: 650px;
+top: 480px;
+font-weight: bold;
+font-size: 14px;
+line-height: 50px;
+align-items: center;
+text-align:center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196f3;
 border: 2px solid blue;
 border-radius: 4px;
 }
+
 .more-about {
-width: 270px;
-background-color: lightcoral;
-padding: 20px 15px 40px;
-margin: 15px 215px;
+width: 1600px;
+
 }
+.more-about-list {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 215px;
+padding-right: 215px;
+}
+
+.more-about-discription {
+color: #757575;
+line-height: 24px;
+}
+
+
+
 li { 
 display: inline-block;
 vertical-align: top;
@@ -100,56 +135,133 @@ margin: 15px;}
 
   
 .What-we-do{
+  width: 1600px;
   text-align: center;
 }
 .our-team {
-height: 450px;}
-
-.our-team-name-table{
 background: #F5F4FA;
-}
+width: 1600px;
+height: 648px;
+top: 1449px;}
+
 .our-team-name {
-  text-align: center;
+text-align: center;
+padding-top: 95px;
+padding-bottom: 50px;
 }
+
+.our-team-name-table {
+width: 1600px;
+text-align: center;
+}
+
+.our-team-name-discription {
+color: #757575;
+line-height: 19px;
+font-size: 16px;
+}
+
 .footer {
+ 
 background: #2F303A;
 width: 1600px;
-height: 100px;
+height: 252px;
+top: 2097px;
 left: 0px;
+padding-top: 60px;
+padding-bottom: 20px;
+padding-left: 215px;
 }
+
+.footer-adress{
+ display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  line-height: 5px;
+  
+}
+
 .footer a{
 text-decoration: none;
 color: white;
 }
 .email-tel a{
 color: grey;
-
 }
+
 /*описание странички портфолио*/
 .BODY-PORTFOLIO {
 font-family: 'Roboto', sans-serif;
 background: white;
+width: 1600px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
+
+.about {
+width: 1600px;
+}
+
 .links-about {
- background: #F5F4FA;
- width: 100px;
- text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+
 }
 .links-about a {
-  color: black;
+color: black;
+background-color:#f5f5fa;
+width: 128px;
+border-radius: 4px;
+height: 128px;
+
 }
 .links-about li {
-    border: 2px solid white;
-    width: auto;
+border: 2px solid white;
+width: auto;
 }
 .details {
   background: EEEEEE;
 }
-.details a{
-    text-decoration: none;
-color: #212121;
 
+.details1 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 0px;
 }
+
+.details1-item {
+flex-basis: calc ((100%-2*30px)/2);
+}
+
+.details1-item-category {
+font-size: 16px;
+line-height: 30px;
+color: #757575;
+}
+
+.details1-item-category a {
+  text-decoration: none;
+color: #757575;
+}
+
+
+.details1-item-name {
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+color: black;} 
+
+.details1-item-name a {
+text-decoration: none;
+color: black;}
+
+
 .details li {
 /*border: 1px solid #000000;*/
 box-sizing: border-box;
